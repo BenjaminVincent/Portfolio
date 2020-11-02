@@ -1,14 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Landing from './components/Landing';
+import Skills from './components/Skills'
 
 const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      Benjamin Vincent
-    </div>
+    // className='app'
+      <div className='temp'>
+        <Navbar />
+        <Landing />
+        <Skills />
+      </div>
   );
 }
 
